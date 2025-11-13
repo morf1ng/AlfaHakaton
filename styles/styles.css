@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #232323;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: 'Inter', Arial, sans-serif;
+  overflow: hidden;
+}
+
+#loader-container {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#loader-canvas {
+  background: transparent;
+  display: block;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#main-app {
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+  min-width: 100vw;
+  position: relative;
+  overflow: hidden;
+  /* остальное добавим после разметки */
+  
+}
